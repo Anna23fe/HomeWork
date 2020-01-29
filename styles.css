@@ -1,0 +1,68 @@
+a {color: red;}
+
+a:visited {
+    color: green
+}
+
+p:hover {
+    font-size: 40px;
+}
+
+* {margin: 0;}
+
+div {
+    width: 50px;
+    height: 50px;
+   
+}
+
+.wrapper { display: flex;
+    flex-direction: column;
+    width: 100%;
+  justify-content: space-between;
+    height:100%;
+    align-items: center;
+    
+
+}
+.firstDiv { 
+    background-color: palevioletred;
+
+}
+.secondDiv { background: red;
+
+}
+.thirdDiv { background: rebeccapurple;
+  
+}
+
+.myCat {
+    margin: 50px;
+    color: salmon;
+    font-size: 50px;
+}
+/*
+.firstDiv { 
+    float: left;
+
+}
+.secondDiv { background: red;
+float: left;
+clear: left;
+}
+.thirdDiv { background: rebeccapurple;
+    float: left;
+
+}*/
+/*
+body div:nth-child(1) {
+background: indigo;
+}
+
+body div:nth-child(2) {
+    background: yellowgreen;
+    }
+
+  body div:nth-child(3) {
+        background: palevioletred;
+        } */
